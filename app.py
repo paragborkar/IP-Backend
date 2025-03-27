@@ -2,7 +2,6 @@ from flask import Flask, request, jsonify
 import cv2
 import numpy as np
 import base64
-from io import BytesIO
 from flask_cors import CORS  # Importing CORS
 
 app = Flask(__name__)
